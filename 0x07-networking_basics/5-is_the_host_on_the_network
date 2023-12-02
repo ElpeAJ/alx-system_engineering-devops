@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Ping an IP 5 times
 
-argv = $1
-argc = $#
-requests = 5
+argv=$1
+argc=$#
+requests=5
 
 if ((argc == 0))
 then
